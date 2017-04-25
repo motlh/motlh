@@ -1,0 +1,9 @@
+.DS_Store
+*.orig
+*.log
+/.vscode
+/.idea
+/build
+/node_modules
+/coverage
+/docs
