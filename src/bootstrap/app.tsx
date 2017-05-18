@@ -1,5 +1,4 @@
-import { App } from 'motlh-framework';
-import * as React from 'react';
-import * as ReactDOM from 'react-dom';
+import { Motlh, React, ReactDOM } from './framework';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+console.log(Motlh.App);
+ReactDOM.render(<Motlh.App />, document.getElementById('root'));
